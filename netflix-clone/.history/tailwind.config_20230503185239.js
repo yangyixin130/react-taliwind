@@ -1,0 +1,35 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [],
+  theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1140px",
+    },
+    fontFamily: {
+      sans: ["Graphik", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+    },
+    colors: {
+      transparent: "transparent",
+      black: "#000",
+      white: "#fff",
+      gray: {
+        100: "#f7fafc",
+        900: "#1a202c",
+      },
+    },
+    extend: {
+      spacing: {
+        128: "32rem",
+        144: "36rem",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+      },
+    },
+  },
+  plugins: [],
+};
